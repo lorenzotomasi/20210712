@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css" />
+    <title>Mirabollandia</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar park-navbar navbar-expand-lg fixed-top navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">IPark</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Parchi
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">Cartaland (Perchiera di Carta)</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Cartaland (Simone)</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Mirabollandia</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 ps-0">
+                    <nav id="content" class="
+                                navbar navbar-light
+                                fixed-left
+                                flex-column
+                                align-items-stretch
+                                p-3
+                            ">
+                        <a class="navbar-brand" href="#">
+                            <h4>Mirabolandia</h4>
+                        </a>
+                        <nav class="nav nav-pills flex-column">
+                            <a class="nav-link" href="#info">Informazioni generali</a>
+                            <a class="nav-link" href="#orari">Orari</a>
+                            <a class="nav-link" href="#attrazioni">Attrazioni</a>
+                            <nav class="nav nav-pills flex-column">
+                                <a class="nav-link ms-3 my-1" href="#scivoli-acquatici">Scivoli acquatici</a>
+                                <a class="nav-link ms-3 my-1" href="#surf">Surf</a>
+                                <a class="nav-link ms-3 my-1" href="#piscine">Piscine</a>
+                                <a class="nav-link ms-3 my-1" href="#torrente-rapido">Torrente rapido</a>
+                            </nav>
+                            <a class="nav-link" href="#meteo">Meteo</a>
+                            <a class="nav-link" href="#localita">Località</a>
+                            <a class="nav-link" href="#parcheggi">Parcheggi</a>
+                            <button class="btn btn-outline-info btn-primary-color-outline mt-5">Acquista
+                                biglietto</button>
+                        </nav>
+                    </nav>
+                </div>
+                <div class="col-md-9" data-bs-spy="scroll" data-bs-target="#content">
+                    <h2 class="primary-color pb-3">Mirabollandia</h2>
+                    <div id="content" data-bs-offset="0" tabindex="0">
+                        <div class="container-fluid mb-3 p-0">
+                            <h4 id="info">Informazioni generali</h4>
+                            <p>Mirabollandia è un parco a tema acquatico, in località Cotenna</p>
+                        </div>
+                        <div class="container-fluid mb-3 p-0">
+                            <h4 id="orari">Orari</h4>
+                            <p><strong>Apertura:</strong> 8.30</p>
+                            <p><strong>Chiusura:</strong> 19.30</p>
+                        </div>
+                        <div class="container-fluid mb-5 p-0">
+                            <h5 id="attrazioni">Attrazioni</h5>
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="./assets/scivolo.jpg" class="img-fluid rounded-start"
+                                            alt="Immagine scivolo">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Scivolo acquatico </h5>
+                                            <p class="card-text">
+                                                Scivolo acquatico di 30 metri
+                                            </p>
+                                            <p class="card-text success-color"><i class="bi bi-person-check-fill"></i>
+                                                Bambini
+                                                15+</p>
+                                            <p class="card-text text-muted">
+                                                5 minuti di coda medi
+                                            </p>
+                                            <button class="btn bg-primary-color"><a
+                                                    href="/Attrazione.html">Dettaglio</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="./assets/scivolo.jpg" class="img-fluid rounded-start"
+                                            alt="Immagine scivolo">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Surf </h5>
+                                            <p class="card-text">
+                                                Scivolo acquatico di 30 metri
+                                            </p>
+                                            <p class="card-text success-color"><i class="bi bi-person-check-fill"></i>
+                                                Bambini &gt; 15 anni</p>
+                                            <p class="card-text text-muted">
+                                                5 minuti di coda medi
+                                            </p>
+                                            <button class="btn bg-primary-color"><a
+                                                    href="/Attrazione.html">Dettaglio</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="./assets/scivolo.jpg" class="img-fluid rounded-start"
+                                            alt="Immagine scivolo">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Piscina </h5>
+                                            <p class="card-text">
+                                                Scivolo acquatico di 30 metri
+                                            </p>
+                                            <p class="card-text success-color"><i class="bi bi-person-check-fill"></i>
+                                                Bambini &gt; 15 anni</p>
+                                            <i class="bi bi-person-x-fill"></i>
+                                            <p class="card-text text-muted">
+                                                5 minuti di coda medi
+                                            </p>
+                                            <button class="btn bg-primary-color"><a
+                                                    href="/Attrazione.html">Dettaglio</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card mb-3" style="max-width: 540px;">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <img src="./assets/scivolo.jpg" class="img-fluid rounded-start"
+                                            alt="Immagine scivolo">
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Torrente rapido </h5>
+                                            <p class="card-text">
+                                                Scivolo acquatico di 30 metri
+                                            </p>
+                                            <p class="card-text text-danger"><i class="bi bi-person-x-fill"></i>
+                                                Bambini &lt; 15 anni</p>
+                                            <p class="card-text text-muted">
+                                                5 minuti di coda medi
+                                            </p>
+                                            <button class="btn bg-primary-color"><a
+                                                    href="/Attrazione.html">Dettaglio</a></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid mb-5 p-0">
+                            <h4 id="meteo">Meteo</h4>
+                            <div class="d-flex align-items-center justify-content-center">
+                                <div class="col-3 align-items-center">
+                                    <p class="card-text">Lunedì</p>
+                                    <i class="bi bi-brightness-high text-warning"></i>
+                                    <p class="card-text">32°C</p>
+                                </div>
+                                <div class="col-3">
+                                    <p class="card-text">Martedì</p>
+                                    <i class="bi bi-brightness-high text-warning"></i>
+                                    <p class="card-text">32°C</p>
+                                </div>
+                                <div class="col-3">
+                                    <p class="card-text">Mercoledì</p>
+                                    <i class="bi bi-brightness-high text-warning"></i>
+                                    <p class="card-text">32°C</p>
+                                </div>
+                                <div class="col-3">
+                                    <p class="card-text">Gercoledì</p>
+                                    <i class="bi bi-cloud-sun text-secondary"></i>
+                                    <p class="card-text">28°C</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="container-fluid mb-5 p-0">
+                            <h4 id="localita">Località</h4>
+                            <button class="btn bg-primary-color">Vai alla mappa</button>
+                        </div>
+                        <div class="container-fluid mb-5 p-0">
+                            <h4 id="parcheggi">Parcheggi</h4>
+                            <p>I parcheggi sono gratuiti e si trovano adiacenti all'entrata del parco</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script>
+        var scrollSpy = new bootstrap.ScrollSpy(document.body, {
+            target: '#content'
+        })
+
+    </script>
+</body>
+
+</html>
